@@ -2,7 +2,7 @@
 
 This repository contains a complete synthetic e-commerce dataset generation project, demonstrating AI prompting skills, data engineering, and SQL querying capabilities.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -53,7 +53,7 @@ sqlite3 ecommerce.db < sql/join_query.sql
 
 This will output a table of successful orders with user details, product info, and payment data.
 
-## 📊 Dataset Overview
+##  Dataset Overview
 
 - **Users**: 150 synthetic users with realistic names, emails, and signup dates
 - **Products**: 50 items across Electronics, Clothing, and Books categories
@@ -61,14 +61,14 @@ This will output a table of successful orders with user details, product info, a
 - **Order Items**: 700 line items linking orders to products with quantities and prices
 - **Payments**: 350 payment records with methods (card, UPI, COD) and success/failure status
 
-## 🎯 Key Features
+##  Key Features
 
 - **Relational Integrity**: All foreign keys are valid, no orphaned records
 - **Realistic Data**: Dates clustered around human behavior patterns, prices reflecting market psychology
 - **AI-Generated**: Entire dataset created using structured prompts to AI agents
 - **Production-Ready**: Clean, consistent data suitable for testing and analytics
 
-## 🤖 AI Prompting Showcase
+##  AI Prompting Showcase
 
 This project demonstrates advanced AI prompting techniques:
 - **DataSmith-47**: Synthetic data generation with constraints
@@ -78,7 +78,7 @@ This project demonstrates advanced AI prompting techniques:
 
 Each prompt is designed to elicit specific, high-quality outputs from AI systems.
 
-## 📈 Use Cases
+##  Use Cases
 
 - E-commerce analytics testing
 - Data pipeline development
