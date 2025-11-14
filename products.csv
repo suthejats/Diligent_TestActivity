@@ -1,0 +1,51 @@
+product_id,product_name,category,price
+1,Wireless Headphones,Electronics,99.99
+2,Bluetooth Speaker,Electronics,49.99
+3,Smartphone Case,Electronics,19.99
+4,Laptop Stand,Electronics,29.99
+5,USB Cable,Electronics,9.99
+6,Graphic T-Shirt,Clothing,24.99
+7,Jeans,Clothing,59.99
+8,Hoodie,Clothing,39.99
+9,Sneakers,Clothing,79.99
+10,Dress,Clothing,49.99
+11,Running Shoes,Clothing,89.99
+12,Summer Dress,Clothing,34.99
+13,Leather Jacket,Clothing,129.99
+14,Baseball Cap,Clothing,14.99
+15,Socks Pack,Clothing,9.99
+16,The Great Gatsby,Books,12.99
+17,To Kill a Mockingbird,Books,10.99
+18,1984,Books,11.99
+19,Pride and Prejudice,Books,9.99
+20,The Catcher in the Rye,Books,13.99
+21,Coffee Table,Home,149.99
+22,Throw Pillow,Home,24.99
+23,Lamp,Home,39.99
+24,Curtains,Home,29.99
+25,Wall Art,Home,19.99
+26,Yoga Mat,Sports,34.99
+27,Dumbbells,Sports,49.99
+28,Basketball,Sports,24.99
+29,Tennis Racket,Sports,79.99
+30,Swimming Goggles,Sports,14.99
+31,Wireless Earbuds,Electronics,79.99
+32,Smart Watch,Electronics,199.99
+33,Tablet,Electronics,299.99
+34,External Hard Drive,Electronics,59.99
+35,Mouse,Electronics,19.99
+36,Sweater,Clothing,44.99
+37,Shorts,Clothing,29.99
+38,Boots,Clothing,99.99
+39,Scarf,Clothing,19.99
+40,Belt,Clothing,24.99
+41,The Hobbit,Books,14.99
+42,Dune,Books,15.99
+43,Atomic Habits,Books,16.99
+44,Sapiens,Books,17.99
+45,Educated,Books,13.99
+46,Dining Chair,Home,89.99
+47,Rug,Home,79.99
+48,Vase,Home,34.99
+49,Picture Frame,Home,14.99
+50,Plant Pot,Home,19.99

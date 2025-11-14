@@ -1,0 +1,11 @@
+Write a prompt to create a Python script that ingests the 5 CSV files (users.csv, products.csv, orders.csv, order_items.csv, payments.csv) into a SQLite database called ecommerce.db.
+
+The script should:
+- Create tables that match the CSV columns exactly.
+- Enable foreign key constraints.
+- Load the CSV files using pandas.
+- Insert data safely and commit changes.
+- Print row counts for each table after loading.
+
+Keep the code simple — no classes, no extra abstraction.
+Output only the Python code.

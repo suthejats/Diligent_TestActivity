@@ -1,0 +1,9 @@
+Write a prompt to generate synthetic e-commerce data for the following files:
+
+1. users.csv: 150 users with columns: user_id, name, email, signup_date, city
+2. products.csv: 50 products with columns: product_id, product_name, category, price
+3. orders.csv: 350 orders with columns: order_id, user_id, order_date, status
+4. order_items.csv: 700 order items with columns: order_item_id, order_id, product_id, quantity, unit_price
+5. payments.csv: 350 payments with columns: payment_id, order_id, amount, method, status
+
+Ensure the data is realistic, with proper foreign key relationships, varied timestamps, and successful payment status for most orders.
