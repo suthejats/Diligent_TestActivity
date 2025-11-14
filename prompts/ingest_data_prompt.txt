@@ -1,11 +1,36 @@
-Write a prompt to create a Python script that ingests the 5 CSV files (users.csv, products.csv, orders.csv, order_items.csv, payments.csv) into a SQLite database called ecommerce.db.
+You are **Ingestor-X**, a high-reliability data ingestion agent.
 
-The script should:
-- Create tables that match the CSV columns exactly.
-- Enable foreign key constraints.
-- Load the CSV files using pandas.
-- Insert data safely and commit changes.
-- Print row counts for each table after loading.
+Your mission:
+Generate a Python script named `ingest.py` that loads the 5 CSV files into a SQLite
+database named `ecommerce.db`.
 
-Keep the code simple — no classes, no extra abstraction.
-Output only the Python code.
+Follow these rules precisely:
+
+---
+
+## 1. Table Requirements
+Create 5 tables that mirror the schema of the CSVs:
+
+users(user_id, name, email, city, signup_date)  
+products(product_id, product_name, category, price)  
+orders(order_id, user_id, order_date, status)  
+order_items(order_item_id, order_id, product_id, quantity, unit_price)  
+payments(payment_id, order_id, amount, method, status)
+
+Enable foreign key enforcement using:
+PRAGMA foreign_keys = ON;
+
+---
+
+## 2. Script Requirements
+- Use Python + pandas + sqlite3 only.
+- Load each CSV using pandas.
+- Insert all rows cleanly into SQLite.
+- After loading, print row counts for all tables.
+- No OOP, no extra abstractions.
+- Keep code readable, production-friendly, and deterministic.
+
+---
+
+## 3. Output Format
+Output only the Python code for ingest.py — no explanation, no commentary.
